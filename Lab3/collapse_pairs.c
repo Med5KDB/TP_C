@@ -22,7 +22,6 @@ void collapsePairs(int tab[], int length)
     for (int i = 0; i < length; i++)
     {
         printf(" %d ", tab[i]);
-        printf("\t");
     }
     printf("}");
 }
