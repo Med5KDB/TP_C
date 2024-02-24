@@ -20,7 +20,7 @@ void collapsePairs(int tab[], int length)
     }
     for (int i = 0; i < length; i++)
     {
-        printf("%d ieme élément du tableau est %d", i, tab[i]);
+        printf("%d ième élément du tableau est %d", i + 1, tab[i]);
         printf("\n");
     }
 }
