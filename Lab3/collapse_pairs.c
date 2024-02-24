@@ -18,11 +18,13 @@ void collapsePairs(int tab[], int length)
             tab[i] = 0;
         }
     }
+    printf("Le tableau est: a = {");
     for (int i = 0; i < length; i++)
     {
-        printf("%d ième élément du tableau est %d", i + 1, tab[i]);
-        printf("\n");
+        printf(" %d ", tab[i]);
+        printf("\t");
     }
+    printf("}");
 }
 
 int main(int argc, char const *argv[])
